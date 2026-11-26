@@ -15,8 +15,5 @@ class ReverseIterator:
         return value
 
 
-backwards = ReverseIterator([8, 4, 9])
-
-print(next(backwards))  
-print(next(backwards))  
-print(next(backwards))  
+for number in ReverseIterator([8, 4, 9]):
+    print(number)
